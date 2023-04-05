@@ -815,3 +815,60 @@
 .grid-btn a{
     text-align: center;
 }
+
+@media screen and (max-width:1061px){
+    .grid-btn{
+        width: 90%;
+        border: 0px solid red;
+    }
+}
+
+@media screen and (max-width:967px){
+    .grid-btn{
+        width: 100%;
+        border: 0px solid red;
+    }
+}
+
+@media screen and (max-width:889px){
+    .grid-btn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grid-btn a{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:800px){
+    .grid-btn{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border: 0px solid red;
+        width: 100%;
+    }
+
+    .grid-btn a{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:800px){
+    .grid-btn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grid-btn a{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:490px){
+    .grid-btn a{
+        width: 80%;
+    }
+}
