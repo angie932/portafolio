@@ -233,7 +233,7 @@
         
         #servicios .fila {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-evenly;
             max-width: 1150px;
             margin: 30px auto;
         }
@@ -298,6 +298,17 @@
             padding: 100px 0;
             text-align: center;
         }
+
+        .contenedor-skills2 {
+            background: linear-gradient( #eb5a5acc, rgba(33, 16, 16, 0.8)), url("img/fondo-skills2.jpg");
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #fff;
+            background-position: center center;
+            padding: 100px 0;
+            text-align: center;
+        }
         
         .contenedor-skills .skill {
             max-width: 600px;
@@ -351,13 +362,55 @@
             height: 6px;
             animation: progreso4 2s forwards;
         }
+
+        .contenedor-skills .skill .barra .barra-progreso5 {
+            background-color: #fff;
+            width: 85%;
+            height: 6px;
+            animation: progreso5 2s forwards;
+        }
+
+        .contenedor-skills .skill .barra .barra-progreso6 {
+            background-color: #fff;
+            width: 85%;
+            height: 6px;
+            animation: progreso6 2s forwards;
+        }
+
+        .contenedor-skills .skill .barra .barra-progreso7 {
+            background-color: #fff;
+            width: 85%;
+            height: 6px;
+            animation: progreso7 2s forwards;
+        }
+
+        .contenedor-skills .skill .barra .barra-progreso8 {
+            background-color: #fff;
+            width: 85%;
+            height: 6px;
+            animation: progreso8 2s forwards;
+        }
+
+        .contenedor-skills .skill .barra .barra-progreso9 {
+            background-color: #fff;
+            width: 85%;
+            height: 6px;
+            animation: progreso9 2s forwards;
+        }
+
+        .contenedor-skills .skill .barra .barra-progreso10 {
+            background-color: #fff;
+            width: 85%;
+            height: 6px;
+            animation: progreso10 2s forwards;
+        }
         
         @keyframes progreso1 {
             0% {
                 width: 0;
             }
             100% {
-                width: 95%;
+                width: 100%;
             }
         }
         
@@ -385,6 +438,60 @@
             }
             100% {
                 width: 85%;
+            }
+        }
+
+        @keyframes progreso5 {
+            0% {
+                width: 0;
+            }
+            100% {
+                width: 80%;
+            }
+        }
+
+        @keyframes progreso6 {
+            0% {
+                width: 0;
+            }
+            100% {
+                width: 75%;
+            }
+        }
+
+        @keyframes progreso7 {
+            0% {
+                width: 0;
+            }
+            100% {
+                width: 85%;
+            }
+        }
+
+        @keyframes progreso8 {
+            0% {
+                width: 0;
+            }
+            100% {
+                width: 85%;
+            }
+        }
+
+        @keyframes progreso9 {
+            0% {
+                width: 0;
+            }
+            100% {
+                width: 85%;
+            }
+        }
+
+        @keyframes progreso10 {
+            0% {
+                width: 0;
+            }
+            100% {
+                width: 70%;
             }
         }
         /* *********************/
@@ -455,7 +562,6 @@
         /* *********************/
         
         #contacto {
-            padding: 100px 15px;
             background-color: #f3f3f3;
         }
         
@@ -622,3 +728,78 @@
                 margin-bottom: 15px;
             }
         }
+
+.card{
+    border: 0px solid red;
+    background-color:#8a8a8aa9 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card i{
+    color: #fff;
+    transition: all .5s ease;
+    font-size: 70px;
+    margin-top: 20px;
+}
+
+.redes .insta22{
+    color: #fff;
+    transition: all .5s ease;
+    margin-left: 10px;
+}
+
+.redes .insta22:hover{
+    color:#ff5080;
+}
+
+.card i:hover, .card .insta22:hover{
+    color:#ff5080;
+}
+
+.card .info2 h4{
+    color:#000;
+}
+
+.card .info2 p{
+    font-weight: 500;
+}
+
+.contenedor-form{
+    border: 0px solid blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.info2{
+    text-align: center;
+    margin-top: 20px;
+    line-height: 25px;
+    margin-bottom: 35px;
+}
+
+.grand:hover{
+    font-size: 75px;
+}
+
+@media screen and (max-width:1158px){
+    .contenedor-form{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:808px){
+    .contenedor-form{
+        grid-template-columns: 1fr;
+    }
+}
+
+.centrarcard{
+    display: flex;
+    justify-content: center;
+}
