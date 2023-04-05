@@ -803,3 +803,15 @@
     display: flex;
     justify-content: center;
 }
+
+.grid-btn{
+    border: 0px solid red;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:0px  40px;
+    width: 80%;
+}
+
+.grid-btn a{
+    text-align: center;
+}
